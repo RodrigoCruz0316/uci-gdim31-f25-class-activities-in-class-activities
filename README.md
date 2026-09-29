@@ -1,7 +1,10 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
+When moving the camera off the cat, the camera stopped following the cat. When you put it on the cat it follows the direction its looking at.
+http://localhost:59558/
+[game](https://pearl-carp.itch.io/activity-1)
+
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
