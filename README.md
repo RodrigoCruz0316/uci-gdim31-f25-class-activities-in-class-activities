@@ -7,7 +7,7 @@ http://localhost:59558/
 
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+The r,g, and b variables float instead of ints, bools, or strings since the color wheels need fractional values to calculate. Floats are useful for decimal values. The bounce variable is an int because it represents a whole number. It is set this way in order to show how many times the ball will bounce. After step 4, in part 2, it showed the line of code was broken because the parenthesis wasn't added in the end. 
 
 ## Open-Source Assets
 ### W1
