@@ -9,6 +9,16 @@ http://localhost:59558/
 ### W2
 The r,g, and b variables float instead of ints, bools, or strings since the color wheels need fractional values to calculate. Floats are useful for decimal values. The bounce variable is an int because it represents a whole number. It is set this way in order to show how many times the ball will bounce. After step 4, in part 2, it showed the line of code was broken because the parenthesis wasn't added in the end. 
 
+### W3
+Activity 1 Table 1
+1.Parameter:Integer:Identifies Dialogue Choice
+Output:String for text
+2.Parameter:Float to show players sanity percentage
+Output:Void to highlight components
+3.Parameters:Float for time player presses the key
+Output:Bool for Telling when a beat is hit whether true or false
+
+Activity 2:
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
