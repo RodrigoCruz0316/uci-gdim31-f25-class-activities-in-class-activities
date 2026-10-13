@@ -19,6 +19,8 @@ Output:Void to highlight components
 Output:Bool for Telling when a beat is hit whether true or false
 
 Activity 2: A metaphor can be a human body and body parts.  The human body or body parts is the component and the class is what the body part does  are variables. In order for the body to be work each body part needs to be connected to the body for it to function properly. 
+
+In Class Activity: I think the balls get extremely bright when bouncing too many times because it is being multiplied to change colors in the code. Each bounce multiplies along with the speed changes the balls brightness. Since it keeps bouncing it keeps multiplying over and over to get it brighter than before. 
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
