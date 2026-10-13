@@ -18,7 +18,7 @@ Output:Void to highlight components
 3.Parameters:Float for time player presses the key
 Output:Bool for Telling when a beat is hit whether true or false
 
-Activity 2:
+Activity 2: A metaphor can be a human body and body parts.  The human body or body parts is the component and the class is what the body part does  are variables. In order for the body to be work each body part needs to be connected to the body for it to function properly. 
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
