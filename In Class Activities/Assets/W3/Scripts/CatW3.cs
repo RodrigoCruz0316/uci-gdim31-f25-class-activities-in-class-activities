@@ -109,7 +109,7 @@ public class CatW3 : MonoBehaviour
             //      and see how the cat is removed ONLY when it's checked!
             if (_health <= 0 && _destroyCatWhenDead)
             {
-                DestroyCat();
+                DestroyCat(); 
             }
         
 
