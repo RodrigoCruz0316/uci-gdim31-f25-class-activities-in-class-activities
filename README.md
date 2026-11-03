@@ -34,9 +34,9 @@ Table 1
 
 1.The member variables this class needs is a private variable to store a gameobject and you need to include a [SerializeField]. It also needs a monobehavior. For the deer private float set the speed the deer moves at and when to stop. 
 
-2.This class needs a method Start() to begin the process of the deer to move. It also needs a private variable named agent to store the Navigation mesh agent for the deer. 
+2.This class needs a method Start() to begin the process of the deer moving. It also needs a private variable named agent to store the Navigation mesh agent for the deer. 
 
-3.The methods it needs are Start() to let the deer move to the mushroom. It also needs an update to let the deer know when to step. Inclduing an agent lets the deer know where to go to. 
+3.The methods it needs are Start() to let the deer be able to walk towards the mushroom. It also needs an update to let the deer know when to step. It also needs an agent to let the deer know where to go to. 
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
