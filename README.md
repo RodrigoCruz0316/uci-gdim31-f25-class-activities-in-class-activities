@@ -32,7 +32,7 @@ Table 1
 
 ### W6
 
-1.The member variables this class needs is a private variable to store a gameobject and you need to include a [SerializeField]. It also needs a monobehavior. For the deer private float set the speed the deer moves at and when to stop. 
+1.The member variables this class needs is a private variable to store a transform and you need to include a [SerializeField]. It also needs a monobehavior. For the deer private float set the speed the deer moves at and when to stop. 
 
 2.This class needs a method Start() to begin the process of the deer moving. It also needs a private variable named agent to store the Navigation mesh agent for the deer. 
 
