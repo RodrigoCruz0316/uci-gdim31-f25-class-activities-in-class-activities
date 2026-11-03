@@ -29,6 +29,14 @@ Table 1
 1.For the collider activiy I added rigidbodies to the soccerball and cat. I added Is Trigger on the goal since the ball needs to go through the goal. The ball and cat are the objects with physics so they need rigidbodies to be interacteable. The ball needs to be able to bounce and the cat needs to be able to push the ball.
 
 2.At first I kept adding the 2d versions of the colliders which didn't work since the game wasn't 2d. I also added Is Trigger on the cat and ball causing it to fall through the ground. Then the ball wouldn't go through the goal which I needed to add Is Trigger to make it go through.
+
+### W6
+
+1.The member variables this class needs is a private variable to store a gameobject and you need to include a [SerializeField]. It also needs a monobehavior. For the deer private float set the speed the deer moves at and when to stop. 
+
+2.This class needs a method Start() to begin the process of the deer to move. It also needs a private variable named agent to store the Navigation mesh agent for the deer. 
+
+3.The methods it needs are Start() to let the deer move to the mushroom. It also needs an update to let the deer know when to step. Inclduing an agent lets the deer know where to go to. 
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
