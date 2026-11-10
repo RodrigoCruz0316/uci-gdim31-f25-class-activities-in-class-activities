@@ -14,7 +14,7 @@ public class BatManager : MonoBehaviour
     // In the Inspector, add ALL of the bats in the Scene.
       
     // STEP 1 -----------------------------------------------------------------
-
+   [SerializeField] private BatW6[] _bats;
     // STEP 3 -----------------------------------------------------------------
     // Add a member variable named "_messages" that's an array of strings.
     // In the Inspector, add at least a few different messages for the bats to
@@ -70,7 +70,18 @@ public class BatManager : MonoBehaviour
         //      player is less than _overlapDistance, call CreateReactions()
         //      and pass the bat in as an argument.
         
-
+    for (int i = 0; i < _bats.Length; i++)
+        {
+            if(Vector3.Distance(_bats[i].transform.position, _playerTransform.position) < _interactDistance)
+            {
+                _bats[i].EnableChase();
+            }
+            else
+            {
+                _bats[i].DisableChase();
+            }
+            _bats[i].DisableChase();
+        }
 
         // STEP 2 -------------------------------------------------------------
 

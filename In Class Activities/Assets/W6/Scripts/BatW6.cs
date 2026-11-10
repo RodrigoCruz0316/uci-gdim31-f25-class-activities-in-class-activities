@@ -6,27 +6,22 @@ using UnityEngine.AI;
 // Write the BatW6 class here.
 public class BatW6 : MonoBehaviour
 {
-[SerializeField] private int speed;
-[SerializeField]private bool _chase = false;
-[SerializeField]private float delta;
-[SerializeField]private Vector3 _targetposition;
-[SerializeField]private Vector3 _direction;
-private void Start()
+    [SerializeField] private float _speed = 0.5f;
+   [SerializeField] private Transform _playerTransform;
+
+    private void Update()
     {
-        if (_chase)
-        {
-            _direction = (_targetposition - transform.position).normalized;
-            transform.Translate(_direction * speed * Time.deltaTime);
-        }
+       transform.position = Vector3.MoveTowards(transform.position, 
+       _playerTransform.position,
+       _speed
+       );
     }
-    public void ChasePlayer(Vector3 playerposition)
+    public void EnableChase()
     {
-        _chase = true;
-        _targetposition = playerposition;
+        enabled = true;
     }
-    public void StopChase()
+    public void DisableChase()
     {
-        _chase = false;
-        _targetposition = Vector3.zero;
+        enabled = false;
     }
 }
