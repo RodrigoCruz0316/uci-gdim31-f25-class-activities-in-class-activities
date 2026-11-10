@@ -37,6 +37,11 @@ Table 1
 2.This class needs a method Start() to begin the process of the deer moving. It also needs a private variable named agent to store the Navigation mesh agent for the deer. 
 
 3.The methods it needs are Start() to let the deer be able to walk towards the mushroom. It also needs an update to let the deer know when to step. It also needs an agent to let the deer know where to go to. 
+
+### W7
+https://docs.google.com/document/d/1_tBpKPam_XOvv1F1GfLHlH7EezarfYFHKBYlpzPdyPM/edit?usp=sharing 
+
+The BatW6 class needs Rigidbody2D, Vector3, and Transforms. The bat needs to chase the player and stop. They also need a Start() to let the bats chase the player but set to update after. BatW6 needs an enable and disable choice. 
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
