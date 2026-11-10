@@ -41,7 +41,7 @@ Table 1
 ### W7
 https://docs.google.com/document/d/1_tBpKPam_XOvv1F1GfLHlH7EezarfYFHKBYlpzPdyPM/edit?usp=sharing 
 
-The BatW6 class needs Rigidbody2D, Vector3, and Transforms. The bat needs to chase the player and stop. They also need a Start() to let the bats chase the player but set to update after. BatW6 needs an enable and disable choice. 
+The BatW6 class needs a float for speed, a chase, and Transforms. The bat needs to chase the player and stop. They also need a Start() to let the bats chase the player but set to update after so the bats don't immediately swarm the player.  BatW6 needs an enable and disable choice. One needs to be enabled while the other needs to be disabled. The bats only follow the cat when its close enough. 
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
