@@ -42,6 +42,9 @@ Table 1
 https://docs.google.com/document/d/1_tBpKPam_XOvv1F1GfLHlH7EezarfYFHKBYlpzPdyPM/edit?usp=sharing 
 
 The BatW6 class needs a float for speed, a chase, and Transforms. The bat needs to chase the player and stop. They also need a Start() to let the bats chase the player but set to update after so the bats don't immediately swarm the player.  BatW6 needs an enable and disable choice. One needs to be enabled while the other needs to be disabled. The bats only follow the cat when its close enough. 
+
+### W8
+The problem with the code in step 2 was that Vector3.forward only made the muskrat ignore where it was looking at. To fix this it needed to have a transform.forward to let the muskrat move where its facing. Using vector3.forward meant it would rotate with the character. Using a transform let it walk straight ahead. 
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
