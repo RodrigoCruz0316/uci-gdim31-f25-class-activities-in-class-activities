@@ -48,13 +48,10 @@ public class MuskratW7 : MonoBehaviour
         //
         // You might want to look below Step 3 for an example :D
         
-    float leftright = Input.GetAxis("Horizontal");
+        float leftright = Input.GetAxis("Horizontal");
 
         float forward = Input.GetAxis("Vertical");
-        Vector3 up = transform.TransformDirection(Vector3.right);
-        transform.RotateAround(_sphereTransform.position, 
-        up, 
-          forward * _rotationSpeed *Time.deltaTime);
+        Vector3 up = transform.TransformDirection(Vector3.right); transform.RotateAround(_sphereTransform.position, up, forward * _rotationSpeed * Time.deltaTime);
     
 
 
@@ -90,7 +87,8 @@ public class MuskratW7 : MonoBehaviour
         //      https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector3.html
         //      like up, left, right, or forward.
 
-        float leftright = Input.GetAxis("Horizontal"); transform.Rotate((Vector3.up * leftright) * _rotationSpeed * Time.deltaTime);
+        float leftright = Input.GetAxis("Horizontal"); 
+        transform.Rotate((Vector3.up * leftright) * _rotationSpeed * Time.deltaTime);
 
         // STEP 1 -------------------------------------------------------------
 
