@@ -56,9 +56,13 @@ https://docs.google.com/drawings/d/1n_HUxweaknAF5YEwXf-8vnfUesHdTB-Y750CszYdGYg/
 Game Plan: Build game setting and start coding player movement first
 
 Accomplishments for November 23:
+
 -Made the grid for the game(tilemap wall,ground,platform)
+
 -Player is able to stand on ground without falling through.
+
 -Started coding the player movement
+
 -Added colliders and rigidbody's to object's in the hierarchy. 
 
 ## Open-Source Assets
