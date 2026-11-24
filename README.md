@@ -45,6 +45,22 @@ The BatW6 class needs a float for speed, a chase, and Transforms. The bat needs 
 
 ### W8
 The problem with the code in step 2 was that Vector3.forward only made the muskrat ignore where it was looking at. To fix this it needed to have a transform.forward to let the muskrat move where its facing. Using vector3.forward meant it would rotate with the character. Using a transform let it walk straight ahead. 
+
+### W9
+
+2D Game Group
+
+Google Drawing
+https://docs.google.com/drawings/d/1n_HUxweaknAF5YEwXf-8vnfUesHdTB-Y750CszYdGYg/edit?usp=sharing
+
+Game Plan: Build game setting and start coding player movement first
+
+Accomplishments for November 23:
+-Made the grid for the game(tilemap wall,ground,platform)
+-Player is able to stand on ground without falling through.
+-Started coding the player movement
+-Added colliders and rigidbody's to object's in the hierarchy. 
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
